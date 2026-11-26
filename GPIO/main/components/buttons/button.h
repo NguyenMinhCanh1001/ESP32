@@ -7,5 +7,6 @@
 
 void button_init(void);
 bool button_is_led_enabled(void);
+void gpio_isr_handle(void* p);
 
 #endif
